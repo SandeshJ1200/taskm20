@@ -1,0 +1,20 @@
+2. Give a write-up on the Difference between copy by value and copy by reference.
+
+Copy By Value
+
+It is used to replace the value of an assigned variable, Only primitive datatypes are performed by copy by value 
+for example:
+
+var a=10;
+var b=a;
+console.log(a);
+
+
+Copy By Reference
+
+var arr1= [1,2,3]
+var arr2=arr1;
+console.log(arr2);
+
+Used to replace/copy the string assigned to a variable
+Non-Primitive Datatypes such as Objects, Arrays are performed by Copy by Reference
